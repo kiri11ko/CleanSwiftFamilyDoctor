@@ -22,6 +22,7 @@ class CodeCell: ScalingCarouselCell {
             mainView.topAnchor.constraint(equalTo: contentView.topAnchor),
             mainView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
             ])
+        
         self.mainImageView = UIImageView(frame: mainView.bounds)
         mainView.addSubview(mainImageView)
         mainImageView.translatesAutoresizingMaskIntoConstraints = false
